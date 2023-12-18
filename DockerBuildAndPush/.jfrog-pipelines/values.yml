@@ -4,7 +4,7 @@ Pipeline:
 GitRepo:
   name: sampleRepo
   gitProvider: NAGSDEMO
-  path: jfrog/jfrog-pipelines-samples
+  path: nagarajuv-jfrog/jfrog-pipelines-samples-nagsdemo 
   branches:
     include: {{gitBranch}}
 
