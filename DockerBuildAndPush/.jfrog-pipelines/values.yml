@@ -3,12 +3,12 @@ Pipeline:
 
 GitRepo:
   name: sampleRepo
-  gitProvider: github
+  gitProvider: NAGSDEMO
   path: jfrog/jfrog-pipelines-samples
   branches:
     include: {{gitBranch}}
 
-artifactoryIntegration: art
+artifactoryIntegration: nagsdemoRT
 
 Image:
   name: sampleImage
