@@ -17,7 +17,7 @@ Image:
 
 DockerBuild:
   name: sampleBuild
-  dockerImageName: pipelineslnp1.jfrogdev.org/ui/repos/tree/General/docker-local/myartifact
+  dockerImageName: pipelineslnp1.jfrogdev.org/ui/repos/tree/General/docker-local/jfrog/nagsartifact
   dockerFileName: Dockerfile
   dockerFileLocation: '.'
   dockerImageTag: ${run_number}
