@@ -44,7 +44,7 @@ goConfig:
   ## Here you specify any additional arguments to the command to execute
   ## it is executed as `go {{ command }}`
   command: "build -o $outputLocation/$outputFile"
-  outputLocation: "GoBuild"
+  outputLocation: "go-local"
   outputFile: "myOutputFile"
 
   ### Settings used only for GoPublishModule:
