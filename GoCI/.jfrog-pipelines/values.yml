@@ -23,7 +23,7 @@ artIntegration: nagsdemoRT
 ##### Repository Details
 repo:
   path: org/repo
-  gitIntegration: myGitIntegration
+  gitIntegration: NAGSDEMO
   branchPattern: "^main$"
 
 goConfig:
