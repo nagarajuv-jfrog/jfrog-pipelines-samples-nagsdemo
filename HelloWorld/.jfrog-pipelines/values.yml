@@ -13,7 +13,7 @@ repo:
 
   # this is the full repository path. Usually org/repo or user/project
   # depending on which source control you use.
-  path: "myorgname/myreponame"
+  path: "nagarajuv-jfrog/jfrog-pipelines-samples-nagsdemo"
 
   # branchPattern is a regex, so you could listen to all
   # features, for example, with "^feature.*"
