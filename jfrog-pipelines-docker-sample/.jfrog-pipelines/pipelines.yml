@@ -10,7 +10,7 @@ resources:
   - name: dbp_image
     type: Image
     configuration:
-      registry: myArtifactory                                # <-- replace with your artifactory integration
+      registry: NagsPAT                                # <-- replace with your artifactory integration
       sourceRepository: quickstarts-docker-local               # <-- required if registry is Artifactory
       imageName: pipelines.jfrog.io/quickstarts-docker-local/dbp  # < -- replace with your image path and name
       imageTag: latest
@@ -66,7 +66,7 @@ pipelines:
           affinityGroup: dbp_group
           targetRepository: quickstarts-target-local
           integrations:
-            - name: myArtifactory                            # <-- replace with your artifactory integration
+            - name: NagsPAT                            # <-- replace with your artifactory integration
           inputSteps:
             - name: docker_build
           outputResources:
